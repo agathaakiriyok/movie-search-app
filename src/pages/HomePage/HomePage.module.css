@@ -1,0 +1,56 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.hero {
+  text-align: center;
+  padding: 72px 24px;
+  background: linear-gradient(135deg, var(--color-surface) 0%, var(--color-bg) 100%);
+  border-radius: 16px;
+  border: 1px solid var(--color-border);
+}
+
+.heroTitle {
+  font-size: clamp(2rem, 5vw, 3.25rem);
+  font-weight: 700;
+  color: var(--color-accent);
+  margin-bottom: 16px;
+  letter-spacing: -0.5px;
+}
+
+.heroSubtitle {
+  font-size: 1.1rem;
+  color: var(--color-text-secondary);
+  max-width: 520px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.sectionTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+.statusText {
+  text-align: center;
+  padding: 64px 0;
+  color: var(--color-text-secondary);
+  font-size: 1rem;
+}
+
+.errorText {
+  text-align: center;
+  padding: 64px 0;
+  color: var(--color-accent);
+  font-size: 1rem;
+}
+

@@ -16,7 +16,6 @@ export type CastMember = {
   order: number
 }
 
-// Фильм из списков (поиск, популярные) — содержит genre_ids, не полные объекты жанров
 export type Movie = {
   id: number
   title: string
@@ -31,7 +30,6 @@ export type Movie = {
   popularity: number
 }
 
-// Фильм из эндпоинта /movie/:id — содержит полные жанры, хронометраж и страны
 export type MovieDetails = {
   id: number
   title: string
@@ -49,7 +47,6 @@ export type MovieDetails = {
   revenue: number
 }
 
-// Обёртка для постраничных ответов API (поиск, популярные, топ и т.д.)
 export type PaginatedResponse<T> = {
   page: number
   results: T[]
