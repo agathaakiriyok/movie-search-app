@@ -2,7 +2,7 @@
 
 Веб-приложение для поиска фильмов с использованием TMDB API. Позволяет искать фильмы, фильтровать результаты, просматривать детальную информацию и сохранять избранное.
 
-**Live Demo:** https://github.com/agathaakiriyok/movie-search-app
+**Live Demo:** https://movie-search-app-beta-coral.vercel.app/
 
 ![Movie Explorer Screenshot](screenshots/main.png)
 
