@@ -42,3 +42,6 @@ src/
   types/        — TypeScript-типы для фильмов и API-ответов
   utils/        — вспомогательные функции (toMovie и др.)
 ```
+
+## Deploy
+https://movie-search-app-c3qm-47cdag8oh-agathaakiriyoks-projects.vercel.app/
