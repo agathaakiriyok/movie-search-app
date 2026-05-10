@@ -1,0 +1,36 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.title {
+  font-size: clamp(1.5rem, 4vw, 2.25rem);
+  font-weight: 700;
+  color: var(--color-text-primary);
+}
+
+.empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 80px 24px;
+  text-align: center;
+}
+
+.emptyIcon {
+  font-size: 4rem;
+  color: var(--color-accent);
+  line-height: 1;
+}
+
+.emptyText {
+  font-size: 1.1rem;
+  color: var(--color-text-primary);
+}
+
+.emptyHint {
+  font-size: 0.95rem;
+  color: var(--color-text-secondary);
+}

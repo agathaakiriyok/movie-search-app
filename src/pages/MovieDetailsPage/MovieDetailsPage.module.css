@@ -1,0 +1,143 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.backButton {
+  align-self: flex-start;
+  background: none;
+  border: 1px solid var(--color-border);
+  color: var(--color-text-secondary);
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: color var(--transition-speed), border-color var(--transition-speed);
+}
+
+.backButton:hover {
+  color: var(--color-text-primary);
+  border-color: var(--color-text-primary);
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 40px;
+  align-items: start;
+}
+
+@media (max-width: 700px) {
+  .content {
+    grid-template-columns: 1fr;
+  }
+}
+
+.posterWrapper {
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+}
+
+.poster {
+  width: 100%;
+  display: block;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  background-color: var(--color-border);
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.title {
+  font-size: clamp(1.5rem, 4vw, 2.25rem);
+  font-weight: 700;
+  color: var(--color-text-primary);
+  line-height: 1.2;
+}
+
+.originalTitle {
+  font-size: 1rem;
+  color: var(--color-text-secondary);
+  margin-top: -8px;
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.rating {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #f6c90e;
+}
+
+.metaItem {
+  font-size: 0.95rem;
+  color: var(--color-text-secondary);
+}
+
+.genres {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.genre {
+  padding: 4px 12px;
+  border: 1px solid var(--color-border);
+  border-radius: 20px;
+  font-size: 0.85rem;
+  color: var(--color-text-secondary);
+}
+
+.overview {
+  font-size: 1rem;
+  color: var(--color-text-primary);
+  line-height: 1.75;
+}
+
+.favoriteButton {
+  align-self: flex-start;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: transparent;
+  color: var(--color-accent);
+  border: 2px solid var(--color-accent);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color var(--transition-speed), color var(--transition-speed);
+}
+
+.favoriteButton:hover {
+  background-color: var(--color-accent);
+  color: #fff;
+}
+
+.favoriteButtonActive {
+  background-color: var(--color-accent);
+  color: #fff;
+}
+
+.statusText {
+  text-align: center;
+  padding: 64px 0;
+  color: var(--color-text-secondary);
+  font-size: 1rem;
+}
+
+.errorText {
+  text-align: center;
+  padding: 64px 0;
+  color: var(--color-accent);
+  font-size: 1rem;
+}

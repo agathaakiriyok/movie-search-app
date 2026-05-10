@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { getPopularMovies } from '../../api/moviesApi'
 import type { Movie } from '../../types/movie'
 import MovieGrid from '../../components/MovieGrid/MovieGrid'
+import Loader from '../../components/Loader/Loader'
 import styles from './HomePage.module.css'
 
 function HomePage() {
@@ -41,9 +42,7 @@ function HomePage() {
       <section className={styles.section}>
         <h2 className={styles.sectionTitle}>Популярные фильмы</h2>
 
-        {loading && (
-          <p className={styles.statusText}>Загрузка...</p>
-        )}
+        {loading && <Loader />}
 
         {error && (
           <p className={styles.errorText}>{error}</p>
