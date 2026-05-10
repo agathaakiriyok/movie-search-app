@@ -38,7 +38,7 @@ function MovieDetailsPage() {
   if (loading) {
     return <Loader />
   }
-
+  
   if (error || !movie) {
     return <p className={styles.errorText}>{error ?? 'Фильм не найден.'}</p>
   }
@@ -47,9 +47,9 @@ function MovieDetailsPage() {
 
   function toggleFavorite() {
     if (favorited) {
-      removeFavorite(movie.id)
+      removeFavorite(movie!.id)
     } else {
-      addFavorite(toMovie(movie))
+      addFavorite(toMovie(movie!))
     }
   }
 
