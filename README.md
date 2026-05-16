@@ -101,12 +101,10 @@ src/
 <img width="1284" height="752" alt="Снимок экрана 2026-05-17 в 00 26 08" src="https://github.com/user-attachments/assets/a68d9956-2142-4cdf-9c3c-4b77ac490cd4" />
 
 ### Результаты поиска с фильтрами
-
-<img width="1286" height="516" alt="Снимок экрана 2026-05-17 в 00 28 28" src="https://github.com/user-attachments/assets/db33a95b-7c1f-47b0-80fb-499318ea7d3a" />
+<img width="1285" height="747" alt="Снимок экрана 2026-05-17 в 00 28 09" src="https://github.com/user-attachments/assets/d9a5b13e-bf9d-43a1-8553-33677fe82147" />
 
 ### Страница деталей фильма
-
-<img width="1285" height="747" alt="Снимок экрана 2026-05-17 в 00 28 09" src="https://github.com/user-attachments/assets/d9a5b13e-bf9d-43a1-8553-33677fe82147" />
+<img width="1286" height="516" alt="Снимок экрана 2026-05-17 в 00 28 28" src="https://github.com/user-attachments/assets/db33a95b-7c1f-47b0-80fb-499318ea7d3a" />
 
 ### Избранное
 <img width="1282" height="522" alt="Снимок экрана 2026-05-17 в 00 29 21" src="https://github.com/user-attachments/assets/bf6b64c4-9168-4204-ba8a-2ecb87da4c29" />
