@@ -35,7 +35,7 @@
 1. Клонируйте репозиторий
 
 ```bash
-git clone https://github.com/your-username/movie-explorer.git
+git clone https://github.com/agathaakiriyok/movie-search-app.git
 cd movie-explorer
 ```
 
